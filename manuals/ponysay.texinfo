@@ -1684,7 +1684,7 @@ based terminals including @command{mate-terminal}.
 @pindex Linux VT
 On Linux's native terminal Linux VT (TTY) it works less well, and not good at
 all without Kernel Mode Setting (KMS) support.
-See @url{https://github.com/erkin/ponysay/issues/1} for more information.
+See @url{https://github.com/anderspippi/ponysay/issues/1} for more information.
 @command{ponysay} clears the screen before printing to TTY, this is because if
 your graphics driver supports KMS, the colours will be messed by when the
 ponies position moves on the screen, this is also reason why the output is
@@ -1828,8 +1828,8 @@ If this does not work, test adding the option @option{-u} to @command{cat}.
 @cindex report bugs
 
 If you find a bug in @command{ponysay}, install the last version
-from @url{https://github.com/erkin/ponysay}, and if it is still
-present, please report it at @url{https://github.com/erkin/ponysay/issues}.
+from @url{https://github.com/anderspippi/ponysay}, and if it is still
+present, please report it at @url{https://github.com/anderspippi/ponysay/issues}.
 Please be as descriptive as possible, as it will help us verify it
 solve it faster.
 Wrong authorship, author name, alias and source  count as bug, but in 
@@ -1843,7 +1843,7 @@ artist, we not want fix a mistaken with another one.
 @cindex request ponies
 
 If you want I specific pony added, ask us at
-@url{https://github.com/erkin/ponysay/issues} and we will add it.
+@url{https://github.com/anderspippi/ponysay/issues} and we will add it.
 To speed the up the process, if possible, supply good pictures. Full visibly,
 transparent background, and pixelated are the properties that makes a picture
 good.
@@ -1991,11 +1991,11 @@ listed under @ref{Required runtime dependencies} and @ref{Package building
 dependencies} installed.
 
 Tarballs can be downloaded at
-@url{https://github.com/erkin/ponysay/tarball/master} for bleeding edge, or
-from @url{https://github.com/erkin/ponysay/tags} for releases.
+@url{https://github.com/anderspippi/ponysay/tarball/master} for bleeding edge, or
+from @url{https://github.com/anderspippi/ponysay/tags} for releases.
 
 If you have @command{git} you can @command{clone} the project URL
-@url{https://github.com/erkin/ponysay.git}.
+@url{https://github.com/anderspippi/ponysay.git}.
 
 In the terminal, @command{cd} into the ponysay directory and execute
 @command{./setup.py --freedom=partial install} or
@@ -3182,13 +3182,13 @@ pkgver=3.0.1
 pkgrel=1
 arch=('any')
 pkgdesc="Cowsay reimplementation for ponies"
-url="https://github.com/erkin/ponysay"
+url="https://github.com/anderspippi/ponysay"
 license=('custom:GPL3' 'FDL')
 depends=('python>=3' 'coreutils')
 optdepends=("util-say>=3: Improved TTY support with KMS and PNG files"
 	"auto-auto-completion: Give autocompletion function for ponysay to bash, zsh and fish (need rebuild)")
 makedepends=('git' 'texinfo' 'info' 'gzip' 'python>=3')
-source=("ponysay::git+https://github.com/erkin/ponysay")
+source=("ponysay::git+https://github.com/anderspippi/ponysay")
 nd5suns=('SKIP')
 
 build()
@@ -4212,7 +4212,7 @@ First release.
 
 Active developers and major contributors of ponysay:
 @itemize @bullet
-@item Erkin ``erkin'' Batu Altunbaş
+@item Erkin ``anderspippi'' Batu Altunbaş
 @item Mattias ``maandree'' Andrée
 @item Elis ``etu'' Axelsson
 @item Sven-Hendrik ``svenstaro'' Haase
