@@ -31,12 +31,12 @@ Run `./dependency-test.sh` if things are not working for you.
 Installation on GNU/Linux (or other Unix implementations)
 ---------------------------------------------------------
 
-[Download](https://github.com/erkin/ponysay/releases) or clone the project.
+[Download](https://github.com/anderspippi/ponysay/releases) or clone the project.
 In the terminal, `cd` into the ponysay directory and `./setup.py --freedom=partial install` or `python3 setup.py --freedom=partial install`.
 Superuser permissions might be required in order to run `./setup.py --freedom=partial install` without `--private`, on most systems this
 can be achieved by running `sudo ./setup.py --freedom=partial install`.
 If installing only the completely free ponies is desired, `--freedom=strict` should be used instead of `--freedom=partial`.
-For additional information, an extensive [manual in PDF](https://github.com/erkin/ponysay/blob/master/ponysay.pdf?raw=true) is provided.
+For additional information, an extensive [manual in PDF](https://github.com/anderspippi/ponysay/blob/master/ponysay.pdf?raw=true) is provided.
 
 In order to use ponysay, run:
 
@@ -131,7 +131,7 @@ FAQ
 
 __Q:__ The output looks like a mess in _(TTY/PuTTY/other)_!
 
-__A:__ Unfortunately we cannot make it perfect, see [issue 1](//github.com/erkin/ponysay/issues/1). But we have done a lot, read more about how to get the best of the current state of the art has to offer in the [manual](//github.com/erkin/ponysay/blob/master/ponysay.pdf?raw=true).
+__A:__ Unfortunately we cannot make it perfect, see [issue 1](//github.com/anderspippi/ponysay/issues/1). But we have done a lot, read more about how to get the best of the current state of the art has to offer in the [manual](//github.com/anderspippi/ponysay/blob/master/ponysay.pdf?raw=true).
 
 __Q:__ The output looks like a mess in _(xfce4-terminal/mate-terminal/xterm/[...])_ with _(this)_ font!
 
@@ -139,7 +139,7 @@ __A:__ We use blocks for printing the ponies, if the blocks are misaligned, or i
 
 __Q:__ You are missing _(my-favourite-pony)_!
 
-__A:__ [Ask](//github.com/erkin/ponysay/issues) and we'll add!
+__A:__ [Ask](//github.com/anderspippi/ponysay/issues) and we'll add!
 
 __Q:__ Which programs do you use to generate the pony files?
 
@@ -152,4 +152,4 @@ __A:__ Well, most dev and contributors has moved to more time consuming tasks so
 PR for bugfixs and ponies (correctly built) and we're still looking for bug fixes and ponies, so stay tuned for the next
 release or pushes on the repository.
 
-The [PDF manual](//github.com/erkin/ponysay/blob/master/ponysay.pdf?raw=true) should answer most of your questions.
+The [PDF manual](//github.com/anderspippi/ponysay/blob/master/ponysay.pdf?raw=true) should answer most of your questions.

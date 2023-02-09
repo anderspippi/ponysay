@@ -4212,7 +4212,7 @@ First release.
 
 Active developers and major contributors of ponysay:
 @itemize @bullet
-@item Erkin ``anderspippi'' Batu Altunbaş
+@item anderspippi ``anderspippi'' Batu Altunbaş
 @item Mattias ``maandree'' Andrée
 @item Elis ``etu'' Axelsson
 @item Sven-Hendrik ``svenstaro'' Haase
@@ -4236,8 +4236,8 @@ Patchers and other contributors of ponysay:
 @node Ponysay license
 @appendix Ponysay license
 
-Ponysay is release by Erkin Batu Altunbaş et al. @*@*
-Copyright @copyright{} 2012, 2013, 2014  Erkin Batu Altunbaş et al.
+Ponysay is release by anderspippi Batu Altunbaş et al. @*@*
+Copyright @copyright{} 2012, 2013, 2014  anderspippi Batu Altunbaş et al.
 
 @*
 

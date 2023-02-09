@@ -4,7 +4,7 @@
 '''
 ponysay - Ponysay, cowsay reimplementation for ponies
 
-Copyright (C) 2012-2016  Erkin Batu Altunbaş et al.
+Copyright (C) 2012-2016  anderspippi Batu Altunbaş et al.
 
 
 This program is free software: you can redistribute it and/or modify
@@ -32,7 +32,7 @@ the colon.
 
 Authors:
 
-         Erkin Batu Altunbaş:              Project leader, helped write the first implementation
+         anderspippi Batu Altunbaş:              Project leader, helped write the first implementation
          Mattias "maandree" Andrée:        Major contributor of both implementions
          Elis "etu" Axelsson:              Major contributor of current implemention and patcher of the first implementation
          Sven-Hendrik "svenstaro" Haase:   Major contributor of the first implementation
